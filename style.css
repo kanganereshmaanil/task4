@@ -1,0 +1,105 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+nav{
+    background-color: black;
+    height: 64%;
+
+}
+h2{
+    color: white;
+}
+.start{
+    background-color: aquamarine;
+}
+.nav{
+    background-color:transparent;
+    overflow: hidden;
+
+}
+#nav_left{
+    display: inline-block;
+    margin: 1rem 0rem 0rem 3rem;
+}
+#nav_left img{
+    width: 69px;
+    height: 69px;
+    padding: 1rem;
+    transition: width 1s ,height 1s;
+}
+#nav_right{
+    display: inline;
+    float: right;
+
+
+}
+#nav_right ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+#nav_right li{
+    text-align: center;
+    display: inline;
+    margin: 1rem;
+}
+#nav_right a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.5rem;
+    color: black;
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid black;
+    transition: font-size 1s;
+}
+.reshma{
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    justify-content: space-around;
+}
+.sandip{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin: 15px;
+    background: linear-gradient(red,yellow,green,blue);
+    text-align: center;
+}
+@media only screen and (max-width:500px){
+    .reshma{
+        display: block;
+        margin-top: 200px;
+        padding: 25px;
+    }
+    .sandip{
+        width: 100%;
+        margin: 15px;
+
+    }
+    h3{
+        margin: 10px 5%;
+    }
+    #nav_right a{
+        display: block;
+        width: 90%;
+        margin: 5px;
+    }
+    #nav_right ul{
+        display: block;
+    }
+    #nav_right a{
+        display: block;
+        float: none;
+    }
+}
+
+
+
+
+
